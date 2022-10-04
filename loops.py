@@ -11,6 +11,18 @@ def loop():
   # for name in names:
   #   if name.startswith("j")
   #     print(f"this {name} starts with j")
+  # dictionaries
+  dic = {"key1": "a", "key2": "b", "key3": "c"}
+  # for item in dic.items():
+  #   print(item)
+  # .items() gives back the values for items in dic.items()
+  for a,b in dic.items():
+    print(a,b)
+  #while loops
+  coins = 30
+  while coins < 40:
+    print(f"I have {coins} coins")
+    coins += 1
   ###################################loops intro######################################
   # queue videos
   #what is iteration?
